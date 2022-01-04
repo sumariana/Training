@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>characterArray</key>
+    <array>
+        <string>Unselected_0</string>
+        <string>Good_1</string>
+        <string>Bad_2</string>
+        <string>Cheerful_3</string>
+        <string>Gloomy_4</string>
+    </array>
+    <key>hobbyArray</key>
+    <array>
+        <string>Music_1</string>
+        <string>Swimming_2</string>
+        <string>Travelling_3</string>
+        <string>Drawing_4</string>
+    </array>
+    <key>areaArray</key>
+    <array>
+        <string>Unselected_0</string>
+        <string>Lombok_1</string>
+        <string>Denpasar_2</string>
+        <string>Medan_3</string>
+        <string>Jakarta_4</string>
+    </array>
+    <key>occupationArray</key>
+    <array>
+        <string>Unselected_0</string>
+        <string>Programmer_1</string>
+        <string>Sales_2</string>
+        <string>CEO_3</string>
+        <string>Designer_4</string>
+    </array>
+    <key>genderArray</key>
+    <array>
+        <string>Unselected_0</string>
+        <string>Male_1</string>
+        <string>Female_2</string>
+    </array>
+</dict>
+</plist>

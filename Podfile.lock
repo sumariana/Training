@@ -1,0 +1,96 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireNetworkActivityIndicator (2.4.0):
+    - Alamofire (~> 4.8)
+  - AlamofireNetworkActivityLogger (2.4.0):
+    - Alamofire (~> 4.8)
+  - CHTCollectionViewWaterfallLayout/Swift (0.9.10)
+  - CropViewController (2.6.0)
+  - FittedSheets (2.4.2)
+  - ImageLoader (0.15.0)
+  - IQKeyboardManagerSwift (6.2.1)
+  - JVFloatLabeledTextField (1.2.2)
+  - Kingfisher (5.7.1)
+  - PryntTrimmerView (4.0.2)
+  - Realm (3.17.3):
+    - Realm/Headers (= 3.17.3)
+  - Realm/Headers (3.17.3)
+  - RealmSwift (3.17.3):
+    - Realm (= 3.17.3)
+  - RxSwift (5.0.1)
+  - SkyFloatingLabelTextField (3.6.0)
+  - SnapKit (5.0.1)
+  - SteviaLayout (4.7.3)
+  - SVProgressHUD (2.2.5)
+  - SVPullToRefresh (0.4.1)
+  - YPImagePicker (5.0.0):
+    - PryntTrimmerView (= 4.0.2)
+    - SteviaLayout (= 4.7.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.2)
+  - AlamofireNetworkActivityIndicator (~> 2.4)
+  - AlamofireNetworkActivityLogger
+  - CHTCollectionViewWaterfallLayout/Swift
+  - CropViewController
+  - FittedSheets
+  - ImageLoader
+  - IQKeyboardManagerSwift (~> 6.2.1)
+  - JVFloatLabeledTextField
+  - Kingfisher (~> 5.7.1)
+  - RealmSwift (~> 3.17.3)
+  - RxSwift (~> 5.0.0)
+  - SkyFloatingLabelTextField (~> 3.6.0)
+  - SnapKit
+  - SVProgressHUD
+  - SVPullToRefresh
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityIndicator
+    - AlamofireNetworkActivityLogger
+    - CHTCollectionViewWaterfallLayout
+    - CropViewController
+    - FittedSheets
+    - ImageLoader
+    - IQKeyboardManagerSwift
+    - JVFloatLabeledTextField
+    - Kingfisher
+    - PryntTrimmerView
+    - Realm
+    - RealmSwift
+    - RxSwift
+    - SkyFloatingLabelTextField
+    - SnapKit
+    - SteviaLayout
+    - SVProgressHUD
+    - SVPullToRefresh
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireNetworkActivityIndicator: 9acc3de3ca6645bf0efed462396b0df13dd3e7b8
+  AlamofireNetworkActivityLogger: 6d3398c692d2c5d83b0c58793537860aca1e383d
+  CHTCollectionViewWaterfallLayout: b989a459788d7657ac010e03bc0f7eedca95a420
+  CropViewController: 7093b39ec3cb508531b22d35773e06cecd7378d8
+  FittedSheets: 661408776eb4ff514a31da75b3600bd7222b2b3d
+  ImageLoader: e0635d52020d64dc7687e3a3b14dc53212ac0442
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  JVFloatLabeledTextField: df48598472ee015701d509f43e59492a0d4ca208
+  Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
+  PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
+  Realm: 5a1d9d47bfc101dd597668b1a8af4288a2557f6d
+  RealmSwift: b7fdc2d18616621c31df5c7a398a45a2163f8eb0
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  YPImagePicker: 1463a19a36244e209dcb03c30e63559c5afa9602
+
+PODFILE CHECKSUM: fff67770e94627bee46d166482a9375b4189c496
+
+COCOAPODS: 1.11.2

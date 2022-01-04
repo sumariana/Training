@@ -1,0 +1,6 @@
+----Todo----
+
+* Hapus folder 'Removable Resources' ketika project baru dibuat pake timedoor template.
+	folder ini hanya berisi support file yang ada didalem template.
+
+* Hapus file ini jika foder 'Removable Resource' udah di hapus.

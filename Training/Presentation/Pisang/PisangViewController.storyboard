@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pTe-E2-66o">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pisang View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="PisangViewController" customModule="Training" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pfv-fX-m2X">
+                                <rect key="frame" x="16" y="386" width="288" height="31"/>
+                                <color key="backgroundColor" red="0.8901960784313725" green="0.43529411764705883" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Registry"/>
+                                <connections>
+                                    <action selector="myButtonClick:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="d95-k5-tW7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQj-md-xIr">
+                                <rect key="frame" x="16" y="433" width="288" height="31"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                <connections>
+                                    <action selector="LoginClick:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="wZK-Lr-wkn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TrainingApps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6DO-Tj-nCn">
+                                <rect key="frame" x="16" y="339" width="288" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PQj-md-xIr" firstAttribute="top" secondItem="Pfv-fX-m2X" secondAttribute="bottom" constant="16" id="0BA-4Q-gne"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="PQj-md-xIr" secondAttribute="trailing" constant="16" id="5Wu-bL-MD5"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="PQj-md-xIr" secondAttribute="bottom" constant="16" id="Bhb-Eq-AYq"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="6DO-Tj-nCn" secondAttribute="bottom" constant="120" id="NGD-fB-7vr"/>
+                            <constraint firstItem="PQj-md-xIr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="VdH-rA-3bR"/>
+                            <constraint firstItem="Pfv-fX-m2X" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="h6Y-6O-O8N"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="6DO-Tj-nCn" secondAttribute="trailing" constant="16" id="pnd-xF-B6m"/>
+                            <constraint firstItem="6DO-Tj-nCn" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="wzW-uM-frG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Pfv-fX-m2X" secondAttribute="trailing" constant="16" id="wzx-R4-HGe"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="r6t-fi-apW"/>
+                    <connections>
+                        <outlet property="dummyButton" destination="PQj-md-xIr" id="vbw-U5-nS9"/>
+                        <outlet property="label" destination="6DO-Tj-nCn" id="3x4-C9-sGF"/>
+                        <outlet property="myButton" destination="Pfv-fX-m2X" id="G25-jt-vso"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="574" y="-553"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="A6s-TT-PFK">
+            <objects>
+                <navigationController id="pTe-E2-66o" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cvS-VR-FzZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="IxM-8R-M2H"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fiI-vf-Oaf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-448" y="-544"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
